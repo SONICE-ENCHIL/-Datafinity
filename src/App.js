@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import Subscribe from './components/Subscribe';
 import Footer from './components/Footer';
 import Copyright from './components/Copyright';
+import HeroFeatures from './components/HeroFeatures';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <div className=' font-serif '>
       <Navbar />
       <Hero />
+      <HeroFeatures />
       <About />
       <Partners />
       <PopularCourses />

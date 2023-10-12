@@ -11,11 +11,11 @@ body {
 }
 
 .hero-bg {
-  background-image: url('./public/map.png');
+  /* background-image: url('./public/map.png'); */
 }
 
 .herocol-bg {
-  background-image: url('./public/herocolbg.png');
+  /* background-image: url('./public/herocolbg.png'); */
 }
 
 ::-webkit-scrollbar {
