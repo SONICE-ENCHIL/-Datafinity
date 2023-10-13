@@ -10,13 +10,6 @@ body {
   background-color: #FFFFFF;
 }
 
-.hero-bg {
-  /* background-image: url('./public/map.png'); */
-}
-
-.herocol-bg {
-  /* background-image: url('./public/herocolbg.png'); */
-}
 
 ::-webkit-scrollbar {
   display: none;
