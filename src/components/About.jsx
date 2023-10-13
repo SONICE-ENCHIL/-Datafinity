@@ -18,7 +18,7 @@ function About() {
         <p className="text-gray-500 mb-6">
           Problems trying to resolve the conflict between the two major realms of classical physics: Newtonian mechanics.
         </p>
-        <a href="#Navbar" className="text-[#FF6551] flex items-center text-lg">
+        <a href="#navbar" className="text-[#FF6551] flex items-center text-lg">
           Learn More
           <span className="ml-2">&#8250;</span>
         </a>
