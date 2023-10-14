@@ -36,9 +36,11 @@ function PopularCourses() {
   return (
     <div className="bg-blue-900 text-white p-4 font-semibold py-32 md:px-10 lg:px-20">
       <div className='sm:mx-10'>
-        <p className="text-orange-500 mb-3 text-xs sm:text-sm md:text-base lg:text-lg xl:text-3xl">Practice Advice</p>
-        <h2 className="text-white mb-3 font-semibold text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-6xl">Our Popular Courses</h2>
-        <p className="font-normal leading-5 lg:w-1/2 mb-10 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics.</p>
+        <h3 className="text-orange-500 text-center sm:text-left font-semibold">Practice Advice</h3>
+        <h2 className="text-white text-2xl md:text-5xl font-bold mt-4 text-center sm:text-left">Our Popular Courses</h2>
+        <p className="text-white mt-4 text-center sm:text-left max-w-md mb-20">
+          Problems trying to resolve the conflict between the two major reals of Classical Physics: Newtonian mechanics
+        </p>
       </div>
 
       {/* Cards */}
