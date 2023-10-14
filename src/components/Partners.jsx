@@ -8,7 +8,7 @@ import ico6 from '../public/ico6.png';
 
 function Partners() {
   return (
-    <div className="bg-white p-4 mt-16 md:px-20 lg:px-40">
+    <div className="bg-white p-4 mt-16 mb-10 md:px-20 lg:px-40">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 px-8 sm:p-20 md:p-10 lg:gap-5 xl:gap-20 sm:gap-16 items-center sm:space-x-1 sm:space-y-2">
         <img src={ico1} alt="Icon 1" className="w-full h-auto object-contain" />
         <img src={ico2} alt="Icon 2" className="w-full h-auto object-contain" />

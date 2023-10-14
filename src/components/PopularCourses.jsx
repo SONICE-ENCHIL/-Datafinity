@@ -70,7 +70,7 @@ function PopularCourses() {
               </div>
             </div>
             <h3 className="text-black font-semibold mt-2 text-left text-lg md:text-lg lg:text-xl xl:text-2xl mx-5">Video in Live Action</h3>
-            <p className="text-gray-500 mt-2 text-left sm:text-sm lg:text-lg xl:text-xl mx-5">{card.description}</p>
+            <p className="text-gray-500 mt-2 text-left font-light sm:text-sm lg:text-lg xl:text-xl mx-5">{card.description}</p>
             <div className="flex items-center mt-2">
               <div className="flex mx-5 mt-1 text-gray-500">
                 <FaDownload className="mr-3" />
