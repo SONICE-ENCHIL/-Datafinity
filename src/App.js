@@ -14,13 +14,13 @@ import HeroFeatures from './components/HeroFeatures';
 
 function App() {
   return (
-    <div className=' font-serif '>
+    <div className=' font-serif mx-auto max-w-[1550px]'>
       <Navbar />
       <Hero />
       <HeroFeatures />
       <About />
-      <Partners />
-      <PopularCourses />
+      {/* <Partners /> */}
+      {/* <PopularCourses /> */}
       <WatchCourses />
       <Testimonials />
       <Subscribe />
