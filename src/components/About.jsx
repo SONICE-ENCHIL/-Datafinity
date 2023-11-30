@@ -7,7 +7,7 @@ function About() {
 			<h3 className="text-orange-500 text-center font-semibold !mx-auto my-10 ml-16 lg:ml-0 uppercase">
 				About Datafinity
 			</h3>
-			<div className="flex flex-col md:flex-row mt-[-70px] items-center bg-white p-4 md:px-20 lg:px-40">
+			<div className="flex flex-col md:flex-row mt-[-70px] items-center bg-white p-4 ">
 				{/* Left Column */}
 				<div className="md:w-1/2 p-6 sm:p-10 md:p-12 lg:p-16">
 					<img

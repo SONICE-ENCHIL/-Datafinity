@@ -1,5 +1,5 @@
 import React from "react";
-import boyImage from "../public/boy.png";
+import heroImage from "../public/hero-image.png";
 
 function Hero() {
 	return (
@@ -31,7 +31,7 @@ function Hero() {
 			{/* Right Column */}
 			<div className="flex-1 sm:flex-1/3 bg-[#184C99] relative sm:bottom-32 h-[680px] mt-32 md:top-0">
 				<img
-					src={boyImage}
+					src={heroImage}
 					alt="Boy"
 					className="w-full h-full object-contain"
 				/>
