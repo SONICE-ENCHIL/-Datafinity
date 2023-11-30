@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Partners from './components/Partners';
 import PopularCourses from './components/PopularCourses';
-import WatchCourses from './components/WatchCourses';
+import Cards from './components/WatchCourses';
 import Testimonials from './components/Testimonials';
 import Subscribe from './components/Subscribe';
 import Footer from './components/Footer';
@@ -21,7 +21,7 @@ function App() {
       <About />
       {/* <Partners /> */}
       {/* <PopularCourses /> */}
-      <WatchCourses />
+      <Cards />
       <Testimonials />
       <Subscribe />
       <Footer />

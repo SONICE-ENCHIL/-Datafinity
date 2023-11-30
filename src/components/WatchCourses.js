@@ -47,9 +47,9 @@ function Cards() {
       </p>
 
       {/* Cards */}
-      <div className="flex flex-col  lg:flex-row sm:space-x-5 items-center space-y-10 md:justify-between mt-20">
+      <div className="flex flex-col  lg:flex-row sm:space-x-5 items-center space-y-0 md:justify-between mt-20">
         {cardData.map((card, index) => (
-          <div key={index} className="bg-white lg:p-5 xs:p-3 md:p-10 !px-10 py-10 space-y-3 sm:space-y-5 shadow-lg rounded-md w-full flex flex-col items-center lg:items-start">
+          <div key={index} className="bg-white lg:p-5 xs:p-3 md:p-10 !px-10 py-10 my-10 shadow-lg rounded-md w-full min-h-[650px] flex flex-col items-center lg:items-start">
             <div className="bg-orange-500 p-6 rounded-full shadow">
               <FaHeart color="#fff" size={40} />
             </div>
