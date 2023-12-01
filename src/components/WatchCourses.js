@@ -40,8 +40,8 @@ const cardData = [
 function Cards() {
   return (
     <div className="p-4 md:px-20 lg:px-40 my-10">
-      <h3 className="text-orange-500 text-center sm:text-left font-semibold">Practice Advice</h3>
-      <h2 className="text-black text-2xl md:text-4xl font-bold mt-4 text-center sm:text-left">Watch Our Courses</h2>
+      <h3 className="text-orange-500 text-center sm:text-left font-semibold">Our Packages</h3>
+      <h2 className="text-black text-2xl md:text-4xl font-bold mt-4 text-center sm:text-left">Affordable Packages</h2>
       <p className="text-gray-500 mt-4 text-center sm:text-left max-w-md">
         Problems trying to resolve the conflict between the two major reals of Classical Physics: Newtonian mechanics
       </p>
