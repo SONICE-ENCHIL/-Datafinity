@@ -3,9 +3,9 @@ import girlImage from "../public/girl.png";
 
 function About() {
 	return (
-		<div className="mt-[-70px] items-center bg-white p-4 md:px-20 lg:px-40">
+		<div className="mt-[-70px] items-center bg-white pn-4 md:px-20 lg:px-40">
 			<h3 className="text-orange-500 text-center font-semibold !mx-auto my-10 ml-16 lg:ml-0 uppercase">
-				About Datafinity
+				About Datafinity.
 			</h3>
 			<div className="flex flex-col md:flex-row mt-[-70px] items-center bg-white p-4 ">
 				{/* Left Column */}
