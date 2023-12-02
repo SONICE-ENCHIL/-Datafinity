@@ -3,10 +3,10 @@ import heroImage from "../public/hero-image.png";
 
 function Hero() {
 	return (
-		<div className="flex flex-col sm:flex-row md:bg-[#184C99] relative bottom-20 z-0">
+		<div className="flex flex-col sm:flex-row md:bg-[#5079f6]  relative bottom-20 z-0">
 			{/* Left Column */}
 			<div className="flex-1 sm:flex-2 lg:1/3 bg-white pt-32 sm:pt-44 relative px-7 md:px-14 md:pl-16 lg:px-40 sm:pl-16">
-				<div className="absolute bg-[#184C99] hidden md:inline-block md:w-10 md:h-20 lg:w-20 lg:h-40 top-0 left-0"></div>
+				<div className="absolute bg-[#5079f6] hidden md:inline-block md:w-10 md:h-20 lg:w-20 lg:h-40 top-0 left-0"></div>
 				<p className="text-[#FF6551] font-semibold mb-5 md:mb-10">
 					Boost your Internet Speed
 				</p>
@@ -28,14 +28,14 @@ function Hero() {
 					</a>
 					<a
 						href="#about"
-						className="border-[#FF6551] text-[#FF6551] border py-2 px-5 rounded-md hover:text-white hover:bg-[#FF6551] transition-all ease-in-out duration-200">
+						className="border-[#FF6551] text-[#FF6551]  border py-2 px-5 rounded-md hover:text-white hover:bg-[#FF6551] transition-all ease-in-out duration-200">
 						Learn More
 					</a>
 				</div>
 			</div>
 
 			{/* Right Column */}
-			<div className="flex-1 sm:flex-1/3 bg-[#184C99] relative sm:bottom-32 h-[680px] mt-32 md:top-0">
+			<div className="flex-1 sm:flex-1/3  relative bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 sm:bottom-32 h-[680px] mt-20 md:top-0">
 				<img
 					src={heroImage}
 					alt="Boy"
