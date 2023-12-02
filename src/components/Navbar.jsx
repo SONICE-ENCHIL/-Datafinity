@@ -51,20 +51,20 @@ function Navbar() {
 						isOpen ? "block" : "hidden"
 					}`}>
 					<div className="flex flex-col items-start space-y-6 pl-10">
-						<a href="/" className="text-gray-700">
+						<a href="#navbar" className="text-gray-700" onClick={toggleNavbar}>
 							Home
 						</a>
-						<a href="#products" className="text-gray-700">
+						<a href="#products" className="text-gray-700" onClick={toggleNavbar}>
 							Product
 						</a>
-						<a href="#pricing" className="text-gray-700">
+						<a href="#pricing" className="text-gray-700" onClick={toggleNavbar}>
 							Pricing
 						</a>
-						<a href="https://wa.link/k1312c" target="_blank" rel="noreferrer" className="text-gray-700">
+						<a href="https://wa.link/k1312c" target="_blank" rel="noreferrer" className="text-gray-700" onClick={toggleNavbar}>
 							Contact
 						</a>
 						<button className="bg-[#FF6551] text-white py-2 px-3 rounded-md flex items-center">
-							<a href="https://wa.link/k1312c" rel="noreferrer" target="_blank">
+							<a href="https://wa.link/k1312c" rel="noreferrer" target="_blank" onClick={toggleNavbar}>
 								CONTACT US
 							</a>
 							<AiOutlineArrowRight size={10} className="ml-2" />
