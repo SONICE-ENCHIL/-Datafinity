@@ -5,7 +5,7 @@ import yellowIcon from "../public/yellowIcon.png";
 
 function HeroFeatures() {
 	return (
-		<div className="relative bottom-20 sm:bottom-44 md:bottom-60 z-30 p-4 md:px-30 lg:px-40">
+		<div id="products" className="relative bottom-20 sm:bottom-44 md:bottom-60 z-30 p-4 md:px-30 lg:px-40">
 		<h3 className="text-orange-500 text-center sm:text-left font-semibold !mx-auto my-10 ml-16 lg:ml-0">Configuration files</h3>
 			<div className="flex flex-col lg:flex-row justify-between items-center lg:space-x-8">
 				{/* Card 1 */}

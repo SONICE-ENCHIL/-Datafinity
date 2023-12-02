@@ -30,7 +30,7 @@ const faqdata = [
 ];
 
 
-function Subscribe() {
+function Questions() {
   return (
     <div className="p-4 md:px-20 my-20 lg:px-40 text-center">
       <h3 className="text-orange-500 text-center font-semibold mb-10">FAQ</h3>
@@ -46,4 +46,4 @@ function Subscribe() {
   );
 }
 
-export default Subscribe;
+export default Questions;

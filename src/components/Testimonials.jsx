@@ -10,9 +10,6 @@ function Testimonials() {
     <div className="p-4 md:px-20 lg:px-40">
       <h3 className="text-orange-500 text-center sm:text-left font-semibold">Client Testimonials</h3>
       <h2 className="text-black text-2xl md:text-4xl font-bold mt-4 text-center sm:text-left">What Clients Say.</h2>
-      <p className="text-gray-500 mt-4 text-center sm:text-left max-w-md">
-        Problems trying to resolve the conflict between the two major reals of Classical Physics: Newtonian mechanics
-      </p>
 
       {/* Cards */}
       <div className="flex flex-col md:flex-row sm:space-x-2 items-center space-y-5 md:justify-between mt-20">

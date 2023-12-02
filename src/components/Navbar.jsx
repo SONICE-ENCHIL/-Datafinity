@@ -17,16 +17,16 @@ function Navbar() {
 				<div className="flex items-center">
 					<div className="text-xl font-bold text-[#FF6551]">Datafinity</div>
 					<div className="hidden md:flex sm:space-x-2 lg:space-x-5 sm:ml-8 lg:ml-32">
-						<a href="#navbar" className="text-gray-700">
+						<a href="/" className="text-gray-700">
 							Home
 						</a>
-						<a href="#navbar" className="text-gray-700">
+						<a href="#products" className="text-gray-700">
 							Product
 						</a>
-						<a href="#navbar" className="text-gray-700">
+						<a href="#pricing" className="text-gray-700">
 							Pricing
 						</a>
-						<a href="#navbar" className="text-gray-700">
+						<a href="#https://wa.link/k1312c" className="text-gray-700">
 							Contact
 						</a>
 					</div>
@@ -51,16 +51,16 @@ function Navbar() {
 						isOpen ? "block" : "hidden"
 					}`}>
 					<div className="flex flex-col items-start space-y-6 pl-10">
-						<a href="#navbar" className="text-gray-700">
+						<a href="/" className="text-gray-700">
 							Home
 						</a>
-						<a href="#navbar" className="text-gray-700">
+						<a href="#products" className="text-gray-700">
 							Product
 						</a>
-						<a href="#navbar" className="text-gray-700">
+						<a href="#pricing" className="text-gray-700">
 							Pricing
 						</a>
-						<a href="#navbar" className="text-gray-700">
+						<a href="https://wa.link/k1312c" target="_blank" rel="noreferrer" className="text-gray-700">
 							Contact
 						</a>
 						<button className="bg-[#FF6551] text-white py-2 px-3 rounded-md flex items-center">
@@ -74,7 +74,7 @@ function Navbar() {
 
 				<div className="hidden md:flex items-center space-x-8">
 					<a
-						href="https://wa.link/k1312c"
+						href="https://chat.whatsapp.com/D8k77UcWBuQ77kI3DWJbMA"
 						rel="noreferrer"
 						target="_blank"
 						className="text-[#FF6551]">
