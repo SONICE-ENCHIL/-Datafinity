@@ -20,10 +20,10 @@ function Hero() {
 				</p>
 				<div className="flex space-x-4">
 					<button className="bg-[#FF6551] text-white py-2 px-5 rounded-md">
-						JOIN OUR SERVER
+						<a href="https://wa.link/k1312c"  rel="noreferrer" target="_blank">JOIN OUR SERVER</a>
 					</button>
 					<button className="border-[#FF6551] text-[#FF6551] border py-2 px-5 rounded-md">
-						Learn More
+						<a href="#about" >Learn More</a>
 					</button>
 				</div>
 			</div>

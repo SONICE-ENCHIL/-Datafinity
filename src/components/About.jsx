@@ -3,9 +3,9 @@ import girlImage from "../public/girl.png";
 
 function About() {
 	return (
-		<div className="mt-[-70px] items-center bg-white pn-4 md:px-20 lg:px-40">
+		<div id="about" className="mt-[-70px] items-center bg-white pn-4 md:px-20 lg:px-40">
 			<h3 className="text-orange-500 text-center font-semibold !mx-auto my-10 ml-16 lg:ml-0 uppercase">
-				About Datafinity.
+				About Us
 			</h3>
 			<div className="flex flex-col md:flex-row mt-[-70px] items-center bg-white p-4 ">
 				{/* Left Column */}
@@ -21,8 +21,7 @@ function About() {
 				<div className="text-center md:w-1/2 lg:w-2/3 p-3 pr-5 sm:p-10 md:p-0 ml-8 md:ml-32">
 					{/* <div className="bg-[#FF6551] h-2 w-16 md:w-32 mb-4"></div> */}
 					<h2 className="text-black mb-4 font-bold sm:font-semibold text-xl mt-20 md:text-2xl">
-						Get Premium VPN
-						<br /> Files
+						About Datafinity
 					</h2>
 					<div className="text-gray-500 mb-6">
 						<p className="mb-10">Datafinity is an innovative company that offers unlimited data for
