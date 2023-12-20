@@ -9,7 +9,7 @@ const cardData = [
 		features: [
 			"Vodafone 10GB (2 Days)",
 			"Vodafone Digi-learn (2 Days)",
-			"MTN 10GB (2 Days - Android Only)",
+			"MTN Unlimited (2 Days-Android Only)",
 			"MTN 1.2GB (1 Day)",
 			"Two days community support",
 		],

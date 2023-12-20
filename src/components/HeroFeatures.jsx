@@ -30,7 +30,7 @@ function HeroFeatures() {
 
 				{/* Card 3 */}
 				<div className="flex bg-white flex-col items-center md:items-start shadow-xl p-10">
-					<img src={yellowIcon} alt="Yellow Icon" className="w-16 h-16 mb-2 sm:mb-5 mt-10" />
+					<img src={yellowIcon} alt="Yellow Icon" className="w-16 h-20 mb-2 sm:mb-5 mt-10" />
 					<h3 className="font-bold text-black mb-5">SSH files</h3>
 					<div className="h-1 w-10 bg-[#FF6551] mb-5"></div>
 					<p className="text-gray-500 text-center md:text-start">
